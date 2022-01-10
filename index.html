@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<div class="form-tag">
+    <!-- Form -->
+    <h2 class="main-heading"> Hello World This Is My Web</h2>
+    <div class="main-form">
+        <h2>Registration Form</h2>
+        <form action="./index.php" method="post">
+            <div class="main-Data">
+                <div class="email">
+                    <label for="email">Email</label> <input type="email" name="Emain" placeholder="Enter Email" id="email" class="email">
+                </div>
+                <div class="pass">
+                    <label for="password">Password</label><input type="password" name="Password" id="password" placeholder="Enter Password" class="Password">
+                </div>
+            </div>
+            <!-- Genders -->
+
+            <div class="Further-Details">
+                <div class="gender">
+                    <span>Gender:-</span>
+                    <div class="S-Male">
+                        <label for="Male">Male:</label> <input type="radio" name="Radio" id="Male" class="Male" required>
+                    </div>
+                    <div class="S-Female">
+                        <label for="Female">Female:</label> <input type="radio" name="Radio" id="Female" class="Female">
+                    </div>
+                    <div class="Custom">
+                        <label for="Custom">Rather Not Say:</label> <input type="radio" name="Radio" id="Custom" class="Custom">
+                    </div>
+                </div>
+
+                <!-- choices -->
+                <div class="options">
+                    <label for="OPT">Please Choose Your Hobby</label>
+                    <select name="Options" id="OPT">
+                        <option value="None" disabled selected hidden>Choose One </option>
+                        <option value="Reading">Books</option>
+                        <option value="Gardening">Gardening</option>
+                        <option value="Painting">Painting</option>
+                        <option value="Playing">Playing</option>
+                </select>
+                </div>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Submit" class="submit-BTN">
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+<!-- <body>
+<table>
+    <tr>
+    <form action="post">
+        <fieldset>  
+            <legend align="center" > Student Data</legend>
+                <Label for="Student_Name">Student  </Label>
+                    <input type="text" name="Student-name" id="Student_Name" placeholder="Enter Name" required>
+                    <br><br>
+                <label for="Roll_NO" >RollNO</label>
+                    <input type="number" name="Roll_NO" id="Roll_NO" placeholder="Enter Roll NO" required>
+                    <br><br>
+                Gender:- <br>
+                <label for="Male">Male</label>
+                <input type="radio" name="Male" id="Male" value="Gender" required>  
+                <label for="Female">Female</label> 
+                <input type="radio" name="Male" id="Female" value="Gender" required>
+                <br><br>
+                Hobbies:- (Optional)
+                <br><br>
+                <label for="cricket">Cricket</label>
+                <input type="checkbox" name="hobbies" id="cricket">
+                <label for="Football">Football</label>
+                <input type="checkbox" name="Football" id="Football">
+                <label for="Hockey">Hockey</label>
+                <input type="checkbox" name="Hockey" id="Hockey">
+                <br><br> 
+                <label for="csc">Our Courses</label>
+                <select name="Courses" id="csc"> Our Courses
+                    <option value="FSC">FSC</option>
+                    <option value="Medical pre">MED pre</option>
+                    <option value="FSC pre">FSC pre</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Submit" >
+        </fieldset>
+    </form>
+ </tr>
+ <tr>
+    <form action="post">
+        <fieldset>  
+            <legend align="center" > Student Data</legend>
+                <Label for="Student_Name">Student  </Label>
+                    <input type="text" name="Student-name" id="Student_Name" placeholder="Enter Name" required>
+                    <br><br>
+                <label for="Roll_NO" >RollNO</label>
+                    <input type="number" name="Roll_NO" id="Roll_NO" placeholder="Enter Roll NO" required>
+                    <br><br>
+                Gender:- <br>
+                <label for="Male">Male</label>
+                <input type="radio" name="Male" id="Male" value="Gender" required>  
+                <label for="Female">Female</label> 
+                <input type="radio" name="Male" id="Female" value="Gender" required>
+                <br><br>
+                Hobbies:- (Optional)
+                <br><br>
+                <label for="cricket">Cricket</label>
+                <input type="checkbox" name="hobbies" id="cricket">
+                <label for="Football">Football</label>
+                <input type="checkbox" name="Football" id="Football">
+                <label for="Hockey">Hockey</label>
+                <input type="checkbox" name="Hockey" id="Hockey">
+                <br><br> 
+                <label for="csc">Our Courses</label>
+                <select name="Courses" id="csc"> Our Courses
+                    <option value="FSC">FSC</option>
+                    <option value="Medical pre">MED pre</option>
+                    <option value="FSC pre">FSC pre</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Submit" >
+        </fieldset>
+    </form>
+ </tr>
+</table> -->
+
+</body>
+
+</html>
